@@ -65,6 +65,7 @@
 
   .cart__title {
     font-size: 25px;
+    text-wrap: wrap;
   }
 
   .cart__subtitle {
