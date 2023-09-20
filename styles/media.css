@@ -1,0 +1,150 @@
+@media screen and (max-width: 1700px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .container {
+    max-width: 1140px;
+  }
+
+  .cart__wrapper {
+    flex-direction: column;
+  }
+  .provides {
+    padding: 1037px 0 116px;
+  }
+  .cart__actions {
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .backsl {
+    display: none;
+  }
+
+  .logo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .nav-header {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+  .search {
+    max-width: 270px;
+  }
+
+  .menu__element a {
+    font-size: 16px;
+  }
+
+  .cart__desc {
+    flex-wrap: wrap;
+  }
+
+  .cart__title {
+    font-size: 25px;
+  }
+
+  .cart__subtitle {
+    font-size: 18px;
+  }
+  .provides {
+    padding: 1157px 0 116px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 95%;
+  }
+
+  .search {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .search input {
+    width: 100%;
+  }
+
+  .nav-header__buttons {
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 15px;
+  }
+  .menu {
+    gap: 7px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .menu__element {
+    text-align: center;
+  }
+
+  .promo {
+    padding: 100px 0px 330px;
+  }
+
+  .promo__desc {
+    font-size: 22px;
+  }
+
+  .promo__carts {
+    grid-template-columns: 1fr;
+  }
+
+  .provides {
+    padding: 2397px 0 116px;
+  }
+
+  .provides__wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .services {
+    padding: 0 0 50px;
+  }
+
+  .service__title {
+    font-size: 24px;
+  }
+
+  .service__desc {
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .subtitle {
+    font-size: 22px;
+  }
+  .service__num {
+    font-size: 26px;
+  }
+}
