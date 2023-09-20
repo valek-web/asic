@@ -151,5 +151,11 @@
   .label {
     padding: 8px 18px;
     font-size: 16px;
-  } 
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .provides {
+    padding: 2196px 0 116px;
+  }
 }
