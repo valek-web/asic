@@ -119,7 +119,7 @@
   }
 
   .provides {
-    padding: 2397px 0 116px;
+    padding: 2056px 0 116px;
   }
 
   .provides__wrapper {
@@ -148,4 +148,8 @@
   .service__num {
     font-size: 26px;
   }
+  .label {
+    padding: 8px 18px;
+    font-size: 16px;
+  } 
 }
