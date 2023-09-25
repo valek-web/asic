@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Store</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav-header">
+                <div class="logo"><img src="./img/logo.svg" alt="#" class="logo__img"></div>
+                <div class="nav-header__buttons">
+                    <button class="button button-bl"><img src="./img/en.png" alt="#" class="flag"> EN <img
+                            src="./img/srt1.svg" alt=">" class="button-bl__srt"></button>
+                    <button class="button button-main">Bulk order</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="subheader">
+        <div class="container">
+            <nav class="nav-subheader">
+                <ul class="menu">
+                    <li class="menu__element"><a href="#">Order tracking</a></li>
+                    <li class="menu__element"><a href="#">Terms of sale</a></li>
+                    <li class="menu__element"><a href="#">Warranty check</a></li>
+                    <li class="menu__element"><a href="#">Shipping calculator</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section class="adaptive-menu">
+        <div class="adaptive-menu__wrapper">
+            <span></span><span></span><span></span>
+        </div>
+    </section>
+    <main class="page">
+        <section class="promo prono-mod">
+            <div class="container">
+                <div class="promo__wrapper">
+                    <div class="promo__logo"><img src="./img/logo.svg" alt="#"></div>
+                    <div class="search" style="margin-top: 20px;"> <input type="text" placeholder="Search..."></div>
+                </div>
+            </div>
+        </section>
+        <section class="main-store">
+            <div class="container">
+                <div class="main-store__wrapper">
+                    <div class="main-store__filters">
+                        <div class="main-store__filters--wrap">
+                            <details class="store-filter">
+                                <summary class="store-filter__title">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none">
+                                        <path
+                                            d="M9.5 7.5H13.75C14.9926 7.5 16 8.50736 16 9.75C16 10.9926 14.9926 12 13.75 12H9.5H14.25C15.4926 12 16.5 13.0074 16.5 14.25C16.5 15.4926 15.4926 16.5 14.25 16.5H9.5M9.5 7.5H8M9.5 7.5V16.5M9.5 16.5H8M10 6V7.5M10 16.5V18M13 6V7.5M13 16.5V18M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z"
+                                            stroke="#D2DEED" stroke-width="1.4" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg> Cryptocurrency
+                                </summary>
+                                <div class="store-filter__cont">
+                                    <div class="store-filter__item store-filter__item-active">
+                                        <div class="store-filter__img">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="79" height="33"
+                                                viewBox="0 0 79 33" fill="none">
+                                                <path
+                                                    d="M32 16.5C32 25.0604 25.0604 32 16.5 32C7.93959 32 1 25.0604 1 16.5C1 7.93959 7.93959 1 16.5 1C25.0604 1 32 7.93959 32 16.5Z"
+                                                    fill="#F7931A" stroke="#06070A" stroke-width="2" />
+                                                <path
+                                                    d="M23.9134 14.4593C24.2372 12.2978 22.5903 11.1356 20.3401 10.3601L21.0702 7.43138L19.2882 6.98794L18.5767 9.83935C18.1085 9.72178 17.6279 9.61247 17.1484 9.50316L17.8651 6.63319L16.0831 6.18872L15.353 9.11644C14.9652 9.02775 14.5837 8.94113 14.2145 8.84832L14.2165 8.83903L11.758 8.22544L11.2837 10.1291C11.2837 10.1291 12.6067 10.4323 12.5789 10.4509C13.3008 10.6313 13.4307 11.1088 13.4091 11.4883L12.5779 14.8244C12.6274 14.8368 12.6913 14.8553 12.7635 14.8832L12.5748 14.8368L11.4095 19.5104C11.3208 19.729 11.097 20.058 10.5917 19.9332C10.6102 19.959 9.29643 19.6104 9.29643 19.6104L8.41162 21.6503L10.7319 22.2288C11.163 22.3371 11.5858 22.4505 12.0014 22.5567L11.2641 25.5185L13.045 25.9619L13.7752 23.0332C14.2619 23.1641 14.7342 23.2858 15.1962 23.4013L14.4682 26.3177L16.2502 26.7611L16.9875 23.8056C20.0276 24.381 22.3129 24.149 23.275 21.3997C24.0505 19.1866 23.2369 17.9089 21.6374 17.0767C22.8027 16.8085 23.6793 16.0423 23.9134 14.4593ZM19.8399 20.1704C19.2903 22.3845 15.5623 21.1872 14.3537 20.8871L15.3334 16.9632C16.542 17.2654 20.4164 17.8625 19.8399 20.1704ZM20.3917 14.4274C19.8894 16.4414 16.7874 15.4174 15.782 15.1668L16.6688 11.609C17.6743 11.8596 20.9155 12.3267 20.3917 14.4274Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M55 16.5C55 25.0604 48.0604 32 39.5 32C30.9396 32 24 25.0604 24 16.5C24 7.93959 30.9396 1 39.5 1C48.0604 1 55 7.93959 55 16.5Z"
+                                                    fill="#DABF30" stroke="#06070A" stroke-width="2" />
+                                                <path
+                                                    d="M46.9134 14.4593C47.2372 12.2978 45.5903 11.1356 43.3401 10.3601L44.0702 7.43138L42.2882 6.98794L41.5767 9.83935C41.1085 9.72178 40.6279 9.61247 40.1484 9.50316L40.8651 6.63319L39.0831 6.18872L38.353 9.11644C37.9652 9.02775 37.5837 8.94113 37.2145 8.84832L37.2165 8.83903L34.758 8.22544L34.2837 10.1291C34.2837 10.1291 35.6067 10.4323 35.5789 10.4509C36.3008 10.6313 36.4307 11.1088 36.4091 11.4883L35.5779 14.8244C35.6274 14.8368 35.6913 14.8553 35.7635 14.8832L35.5748 14.8368L34.4095 19.5104C34.3208 19.729 34.097 20.058 33.5917 19.9332C33.6102 19.959 32.2964 19.6104 32.2964 19.6104L31.4116 21.6503L33.7319 22.2288C34.163 22.3371 34.5858 22.4505 35.0014 22.5567L34.2641 25.5185L36.045 25.9619L36.7752 23.0332C37.2619 23.1641 37.7342 23.2858 38.1962 23.4013L37.4682 26.3177L39.2502 26.7611L39.9875 23.8056C43.0276 24.381 45.3129 24.149 46.275 21.3997C47.0505 19.1866 46.2369 17.9089 44.6374 17.0767C45.8027 16.8085 46.6793 16.0423 46.9134 14.4593ZM42.8399 20.1704C42.2903 22.3845 38.5623 21.1872 37.3537 20.8871L38.3334 16.9632C39.542 17.2654 43.4164 17.8625 42.8399 20.1704ZM43.3917 14.4274C42.8894 16.4414 39.7874 15.4174 38.782 15.1668L39.6688 11.609C40.6743 11.8596 43.9155 12.3267 43.3917 14.4274Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M78 16.5C78 25.0604 71.0604 32 62.5 32C53.9396 32 47 25.0604 47 16.5C47 7.93959 53.9396 1 62.5 1C71.0604 1 78 7.93959 78 16.5Z"
+                                                    fill="#94CF65" stroke="#06070A" stroke-width="2" />
+                                                <path
+                                                    d="M69.9134 14.4593C70.2372 12.2978 68.5903 11.1356 66.3401 10.3601L67.0702 7.43138L65.2882 6.98794L64.5767 9.83935C64.1085 9.72178 63.6279 9.61247 63.1484 9.50316L63.8651 6.63319L62.0831 6.18872L61.353 9.11644C60.9652 9.02775 60.5837 8.94113 60.2145 8.84832L60.2165 8.83903L57.758 8.22544L57.2837 10.1291C57.2837 10.1291 58.6067 10.4323 58.5789 10.4509C59.3008 10.6313 59.4307 11.1088 59.4091 11.4883L58.5779 14.8244C58.6274 14.8368 58.6913 14.8553 58.7635 14.8832L58.5748 14.8368L57.4095 19.5104C57.3208 19.729 57.097 20.058 56.5917 19.9332C56.6102 19.959 55.2964 19.6104 55.2964 19.6104L54.4116 21.6503L56.7319 22.2288C57.163 22.3371 57.5858 22.4505 58.0014 22.5567L57.2641 25.5185L59.045 25.9619L59.7752 23.0332C60.2619 23.1641 60.7342 23.2858 61.1962 23.4013L60.4682 26.3177L62.2502 26.7611L62.9875 23.8056C66.0276 24.381 68.3129 24.149 69.275 21.3997C70.0505 19.1866 69.2369 17.9089 67.6374 17.0767C68.8027 16.8085 69.6793 16.0423 69.9134 14.4593ZM65.8399 20.1704C65.2903 22.3845 61.5623 21.1872 60.3537 20.8871L61.3334 16.9632C62.542 17.2654 66.4164 17.8625 65.8399 20.1704ZM66.3917 14.4274C65.8894 16.4414 62.7874 15.4174 61.782 15.1668L62.6688 11.609C63.6743 11.8596 66.9155 12.3267 66.3917 14.4274Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </div>
+                                        BTC / BCH / BSV SHA256
+                                    </div>
+                                    <div class="store-filter__item">
+                                        <div class="store-filter__img">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33"
+                                                viewBox="0 0 33 33" fill="none">
+                                                <path
+                                                    d="M16.5 33C25.6127 33 33 25.6127 33 16.5C33 7.3873 25.6127 0 16.5 0C7.3873 0 0 7.3873 0 16.5C0 25.6127 7.3873 33 16.5 33Z"
+                                                    fill="#4F5970" />
+                                                <path
+                                                    d="M16.4887 17.0703L9.55762 16.4753L16.4876 12.5544V17.0703H16.4887ZM16.4887 21.6697V28.8265C14.0786 25.0748 11.4221 20.9457 9.28125 17.6034C11.8078 19.0266 14.4458 20.5136 16.4887 21.6697ZM16.4887 11.287L9.28125 15.3089L16.4887 4.125V11.287Z"
+                                                    fill="white" />
+                                                <path
+                                                    d="M23.4196 16.4753L16.4885 17.0703V12.5544L23.4196 16.4753ZM16.4885 21.6707C18.5304 20.5157 21.1673 19.0266 23.6949 17.6034C21.554 20.9468 18.8975 25.0759 16.4885 28.8255V21.6707ZM16.4885 11.287V4.125L23.6949 15.3089L16.4885 11.287Z"
+                                                    fill="white" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M16.4885 17.0703L23.4185 16.4752L16.4885 20.3682V17.0703Z"
+                                                    fill="white" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M16.4877 17.0703L9.55664 16.4752L16.4877 20.3682V17.0703Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </div>
+                                        ETC Ethash
+                                    </div>
+                                    <div class="store-filter__item">
+                                        <div class="store-filter__img">
+                                            <svg width="56" height="33" viewBox="0 0 56 33" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_1_467)">
+                                                    <path
+                                                        d="M32 16.5C32 25.0604 25.0604 32 16.5 32C7.93959 32 1 25.0604 1 16.5C1 7.93959 7.93959 1 16.5 1C25.0604 1 32 7.93959 32 16.5Z"
+                                                        fill="#4F5970" stroke="#06070A" stroke-width="2" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M10.7528 19.8144L9.28125 20.3857L9.99075 17.5405L11.4799 16.9424L13.6259 8.25H18.9152L17.3487 14.6396L18.8028 14.0508L18.1015 16.8867L16.6299 17.4756L15.7554 21.0674H23.7188L22.8185 24.75H9.54112L10.7528 19.8144Z"
+                                                        fill="white" />
+                                                </g>
+                                                <g clip-path="url(#clip1_1_467)">
+                                                    <path
+                                                        d="M55 16.5C55 25.0604 48.0604 32 39.5 32C30.9396 32 24 25.0604 24 16.5C24 7.93959 30.9396 1 39.5 1C48.0604 1 55 7.93959 55 16.5Z"
+                                                        fill="#4F5970" stroke="#06070A" stroke-width="2" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M36.662 15.0666H41.1108V17.424H36.662V22.3926H39.468C40.5787 22.3926 41.4872 22.243 42.1947 21.9419C42.9021 21.6418 43.4569 21.2262 43.8601 20.6941C44.2725 20.1407 44.5533 19.5006 44.681 18.8224C44.83 18.0573 44.9025 17.2794 44.8976 16.5C44.9025 15.7206 44.83 14.9427 44.681 14.1776C44.5534 13.4994 44.2727 12.8592 43.8601 12.3059C43.4569 11.7738 42.9011 11.3582 42.1947 11.0581C41.4872 10.757 40.5787 10.6074 39.468 10.6074H36.662V15.0676V15.0666ZM33.8096 17.424H32.2812V15.0676H33.8096V8.25H40.5632C41.811 8.25 42.8907 8.46656 43.8034 8.89659C44.7161 9.32869 45.4606 9.91753 46.0392 10.6652C46.6167 11.4118 47.0467 12.2863 47.3282 13.2877C47.6097 14.289 47.75 15.3605 47.75 16.5C47.7571 17.5851 47.6148 18.666 47.3272 19.7123C47.0467 20.7127 46.6167 21.5882 46.0381 22.3348C45.4606 23.0825 44.7161 23.6713 43.8034 24.1034C42.8907 24.5345 41.81 24.75 40.5632 24.75H33.8096V17.424Z"
+                                                        fill="white" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_1_467">
+                                                        <rect width="33" height="33" fill="white" />
+                                                    </clipPath>
+                                                    <clipPath id="clip1_1_467">
+                                                        <rect width="33" height="33" fill="white"
+                                                            transform="translate(23)" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+
+                                        </div>
+                                        LTC / DOGE Scrypt
+                                    </div>
+                                    <div class="store-filter__item">
+                                        <div class="store-filter__img">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33"
+                                                viewBox="0 0 33 33" fill="none">
+                                                <g clip-path="url(#clip0_1_478)">
+                                                    <path
+                                                        d="M16.5 33C25.6127 33 33 25.6127 33 16.5C33 7.3873 25.6127 0 16.5 0C7.3873 0 0 7.3873 0 16.5C0 25.6127 7.3873 33 16.5 33Z"
+                                                        fill="#4F5970" />
+                                                    <path
+                                                        d="M15.5678 20.4662H22.0616V23.9209H18.0655C18.1315 24.9088 18.1655 25.8256 18.2315 26.8125H14.8686V23.9559H10.8715C10.8715 22.8288 10.7384 21.7006 10.9385 20.6425C11.0385 20.0784 11.6377 19.5845 12.0038 19.0915C13.2704 17.5087 14.5471 15.9339 15.8338 14.3674C16.334 13.7672 16.8331 13.2031 17.3993 12.5338H11.1705V9.07912H14.8686V6.1875H18.0985V9.00797H22.1286C22.1286 10.1712 22.2616 11.2994 22.0616 12.3575C21.9615 12.9216 21.3624 13.4155 20.9633 13.9085C19.6967 15.4913 18.4199 17.0661 17.1332 18.6326C16.6308 19.2601 16.1087 19.8716 15.5678 20.4662Z"
+                                                        fill="white" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_1_478">
+                                                        <rect width="33" height="33" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </div>
+                                        DASH X11
+                                    </div>
+                                    <div class="store-filter__item">
+                                        <div class="store-filter__img">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33"
+                                                viewBox="0 0 33 33" fill="none">
+                                                <g clip-path="url(#clip0_1_484)">
+                                                    <path
+                                                        d="M16.5 33C25.6127 33 33 25.6127 33 16.5C33 7.3873 25.6127 0 16.5 0C7.3873 0 0 7.3873 0 16.5C0 25.6127 7.3873 33 16.5 33Z"
+                                                        fill="#4F5970" />
+                                                    <path
+                                                        d="M19.6821 8.25415H12.1787L11.5579 11.7264L18.325 11.7367C21.6569 11.7367 22.6459 12.9463 22.6139 14.9542C22.5995 15.9834 22.1509 17.7241 21.9612 18.2851C21.4486 19.7907 20.3926 21.5047 16.4347 21.4995L9.85739 21.4954L9.23657 24.9717H16.7204C19.3593 24.9717 20.4834 24.6634 21.6704 24.1158C24.3042 22.901 25.8727 20.2992 26.5028 16.9032C27.4371 11.8501 26.2718 8.25415 19.6811 8.25415H19.6821Z"
+                                                        fill="white" />
+                                                    <path
+                                                        d="M16.301 16.2925C16.5454 15.2767 16.6227 14.8694 16.6227 14.8694H8.94406C6.98056 14.8694 6.70006 16.1481 6.5134 16.9216C6.26899 17.9332 6.19165 18.3457 6.19165 18.3457H13.8714C15.8338 18.3457 16.1143 17.067 16.301 16.2925Z"
+                                                        fill="white" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_1_484">
+                                                        <rect width="33" height="33" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </div>
+                                        ZEC Equihash
+                                    </div>
+                                    <div class="store-filter__item">
+                                        <div class="store-filter__img">
+                                            <svg width="33" height="33" viewBox="0 0 33 33" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <g clip-path="url(#clip0_1_492)">
+                                                    <mask id="mask0_1_492" style="mask-type:alpha"
+                                                        maskUnits="userSpaceOnUse" x="0" y="0" width="33" height="33">
+                                                        <rect width="33" height="33" fill="url(#pattern0)" />
+                                                    </mask>
+                                                    <g mask="url(#mask0_1_492)">
+                                                        <rect width="33" height="33" fill="url(#pattern1)" />
+                                                        <rect width="33" height="33" fill="#4F5970" />
+                                                        <path
+                                                            d="M8.5 25.5V8H13V14.5L19 8H24L17.5 15L24.5 25.5H19.5L14.5 18L13 19.5V25.5H8.5Z"
+                                                            fill="white" />
+                                                    </g>
+                                                </g>
+                                                <defs>
+                                                    <pattern id="pattern0" patternContentUnits="objectBoundingBox"
+                                                        width="1" height="1">
+                                                        <use xlink:href="#image0_1_492"
+                                                            transform="translate(0 -0.00162866) scale(0.00325733)" />
+                                                    </pattern>
+                                                    <pattern id="pattern1" patternContentUnits="objectBoundingBox"
+                                                        width="1" height="1">
+                                                        <use xlink:href="#image0_1_492"
+                                                            transform="translate(0 -0.00162866) scale(0.00325733)" />
+                                                    </pattern>
+                                                    <clipPath id="clip0_1_492">
+                                                        <rect width="33" height="33" fill="white" />
+                                                    </clipPath>
+                                                    <image id="image0_1_492" width="307" height="308"
+                                                        xlink:href="./img/icon-for-png.png" />
+                                                </defs>
+                                            </svg>
+
+
+                                        </div>
+                                        KDA Blake2S
+                                    </div>
+                                    <div class="store-filter__item">
+                                        <div class="store-filter__img">
+                                            <svg width="33" height="33" viewBox="0 0 33 33" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <circle cx="16.5" cy="16.5" r="16.5" fill="#4F5970" />
+                                                <mask id="mask0_1_499" style="mask-type:alpha"
+                                                    maskUnits="userSpaceOnUse" x="6" y="5" width="21" height="22">
+                                                    <rect x="6" y="5" width="21" height="22" fill="url(#pattern0)" />
+                                                </mask>
+                                                <g mask="url(#mask0_1_499)">
+                                                    <rect x="6" y="5" width="21" height="22" fill="url(#pattern1)" />
+                                                    <rect x="6" y="5" width="21" height="22" fill="white" />
+                                                </g>
+                                                <defs>
+                                                    <pattern id="pattern0" patternContentUnits="objectBoundingBox"
+                                                        width="1" height="1">
+                                                        <use xlink:href="#image0_1_499"
+                                                            transform="matrix(0.0052381 0 0 0.005 -0.0238095 0)" />
+                                                    </pattern>
+                                                    <pattern id="pattern1" patternContentUnits="objectBoundingBox"
+                                                        width="1" height="1">
+                                                        <use xlink:href="#image0_1_499"
+                                                            transform="matrix(0.0052381 0 0 0.005 -0.0238095 0)" />
+                                                    </pattern>
+                                                    <image id="image0_1_499" width="200" height="200"
+                                                        xlink:href="./img/icon-for-png1.png" />
+                                                </defs>
+                                            </svg>
+
+                                        </div>
+                                        CKB Eaglesong
+                                    </div>
+                                    <div class="store-filter__item">
+                                        <div class="store-filter__img">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33"
+                                                viewBox="0 0 33 33" fill="none">
+                                                <g clip-path="url(#clip0_1_507)">
+                                                    <path
+                                                        d="M16.5 33C25.6127 33 33 25.6127 33 16.5C33 7.3873 25.6127 0 16.5 0C7.3873 0 0 7.3873 0 16.5C0 25.6127 7.3873 33 16.5 33Z"
+                                                        fill="#4F5970" />
+                                                    <path
+                                                        d="M23.992 12.7359L22.6535 10.3455L25.2471 10.3465C25.2848 10.3485 25.3215 10.3594 25.3542 10.3784C25.3868 10.3975 25.4144 10.424 25.4347 10.4558L25.9401 11.2912L26.8125 12.7359H23.992ZM19.1947 27.2147C19.1328 27.3281 19.0503 27.3281 19.0235 27.3281H17.9644L16.3721 27.3271L20.492 19.8897C20.5252 19.8292 20.5423 19.7612 20.5415 19.6922C20.5407 19.6232 20.5221 19.5555 20.4874 19.4959C20.4527 19.4362 20.4032 19.3865 20.3437 19.3516C20.2841 19.3167 20.2165 19.2978 20.1475 19.2968L13.1247 19.306L11.7284 16.8743H21.9636L21.9801 16.8723C22.0203 16.8703 22.06 16.8619 22.0976 16.8475L22.1234 16.8372C22.2032 16.8026 22.2693 16.7424 22.3111 16.666L23.9972 13.5321H26.7816L19.1947 27.2147ZM15.6863 26.9321L15.3532 26.3814C14.9273 25.675 14.3818 24.7696 14.3199 24.6696C14.2993 24.6366 14.289 24.5551 14.3333 24.4757L16.7506 20.097L19.4741 20.0939L15.6863 26.9321ZM11.0426 22.2781L9.68859 19.8619L11.0529 17.291L12.4214 19.6721L11.0426 22.2781ZM9.22556 22.6545H7.75087C7.71356 22.652 7.67735 22.6408 7.64513 22.6218C7.6129 22.6028 7.58555 22.5766 7.56525 22.5452L7.12491 21.8161L6.1875 20.2641H9.00694L10.3455 22.6545H9.22556ZM13.8043 5.78634C13.8662 5.67188 13.9487 5.67188 13.9745 5.67188H16.6372L12.506 13.1093L12.4977 13.1299C12.486 13.1544 12.4767 13.1799 12.4699 13.2062L12.4616 13.2423C12.4592 13.2569 12.4578 13.2718 12.4575 13.2866L12.4554 13.3073C12.4554 13.3114 12.4554 13.3165 12.4575 13.3207C12.4573 13.3352 12.4587 13.3497 12.4616 13.364C12.4626 13.3765 12.4647 13.3889 12.4678 13.4011L12.4781 13.4382C12.4867 13.462 12.4971 13.4851 12.5091 13.5073C12.5216 13.53 12.5372 13.5508 12.5555 13.5692C12.5716 13.5885 12.59 13.6058 12.6101 13.6208C12.6204 13.63 12.6328 13.6383 12.6442 13.6455L12.6565 13.6548C12.6607 13.6579 12.6658 13.6579 12.671 13.661C12.6916 13.6713 12.7122 13.6806 12.7349 13.6868L12.7586 13.694C12.7879 13.7014 12.8181 13.7052 12.8483 13.7053H13.0278L19.8732 13.696C20.0547 14.0126 20.393 14.6087 20.6807 15.115L21.2293 16.0793H11.0406L11.0282 16.0813C10.9577 16.0822 10.8888 16.102 10.8285 16.1387C10.7683 16.1753 10.719 16.2274 10.6858 16.2896L8.99869 19.47H6.21844C7.43325 17.2755 13.7228 5.93072 13.8043 5.78634ZM17.3178 6.07716L17.5653 6.48656C17.9994 7.20741 18.613 8.22422 18.679 8.33044C18.6997 8.36344 18.7079 8.44491 18.6646 8.52431L16.2484 12.9009L13.5259 12.904L17.3178 6.07716ZM21.9553 10.7198L23.3093 13.1381L21.9285 15.7039L21.3675 14.717C20.988 14.0498 20.7116 13.563 20.5559 13.2918C20.8519 12.7504 21.6294 11.3169 21.9553 10.7198Z"
+                                                        fill="white" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_1_507">
+                                                        <rect width="33" height="33" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </div>
+                                        HNS Blake2B and SHA3
+                                    </div>
+                                </div>
+                            </details>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="predfooter">
+            <div class="container">
+                <div class="predfooter__img">
+                    <img src="./img/predfooter.svg" alt="#">
+                </div>
+                <h1 class="title">Have any question?</h1>
+                <div class="subtitle">You can ask everything that interests you in our social networks</div>
+                <div class="predfooter__btn">
+                    <button class="button button-main">Contact Us</button>
+                </div>
+            </div>
+        </section>
+        <section class="line"></section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__img"><img src="./img/predfooter.svg" alt="#"></div>
+                <div class="items">
+                    <div class="item"><a href="#"><img src="./img/socialnetwork/facebook.svg" alt="#"></a></div>
+                    <div class="item"><a href="#"><img src="./img/socialnetwork/tg.svg" alt="#"></a></div>
+                    <div class="item"><a href="#"><img src="./img/socialnetwork/twitter.svg" alt="#"></a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
