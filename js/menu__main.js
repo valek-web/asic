@@ -1,7 +1,7 @@
 const burger = document.querySelector('.adaptive-menu__wrapper')
 const close_menu = document.querySelector('.close-filter')
 const bg = document.querySelector('.bg')
-const filter = document.querySelector('.filter')
+const filter = document.querySelector('.filter-main')
 
 burger.addEventListener('click', () => {
   close_menu.classList.add('active__all')
