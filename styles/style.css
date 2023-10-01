@@ -249,6 +249,11 @@
   margin-top: 114px;
 }
 
+.promo .search {
+  margin-top: 56px;
+  max-width: 560px;
+}
+
 .cart {
   background: url(./../img/bg/bg_cart.jpg) top left/ 100% 100% no-repeat;
   padding: 32px;

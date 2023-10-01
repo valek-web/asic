@@ -21,6 +21,98 @@
   .product-labels {
     gap: 5px;
   }
+
+  .info-sale__text {
+    font-size: 16px;
+  }
+  .menu__element a {
+    font-size: 16px;
+  }
+  .label {
+    font-size: 12px;
+  }
+  .menu__element a {
+    font-size: 14px;
+  }
+  .button {
+    font-size: 12px !important;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+
+  .search input {
+    font-size: 14px;
+  }
+  .promo__desc {
+    font-size: 22px;
+  }
+
+  .cart__title {
+    font-size: 22px;
+  }
+
+  .cart__subtitle {
+    font-size: 16px;
+  }
+
+  .provide__title {
+    font-size: 22px;
+  }
+  .provide__desc {
+    font-size: 14px;
+  }
+
+  .service__desc {
+    font-size: 14px;
+  }
+
+  .product-title {
+    font-size: 22px;
+  }
+
+  .product-price {
+    font-size: 18px;
+  }
+
+  .filter__wrapper {
+    font-size: 14px;
+  }
+
+  .subtitle-main {
+    font-size: 16px;
+  }
+  .calculator-filter__input {
+    font-size: 12px;
+  }
+  .title {
+    font-size: 36px;
+  }
+
+  .product-item__label {
+    font-size: 16px;
+  }
+
+  .product-item__value {
+    font-size: 14px;
+  }
+
+  .order-header__title {
+    font-size: 18px;
+  }
+  .order-header__value {
+    font-size: 18px;
+  }
+  .processe {
+    font-size: 16px;
+  }
+  .processe__date {
+    font-size: 16px;
+  }
+
+  .item img {
+    width: 25px;
+  }
 }
 
 @media screen and (max-width: 1500px) {
