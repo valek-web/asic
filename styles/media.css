@@ -226,6 +226,14 @@
   .product-price {
     font-size: 20px;
   }
+
+  .menu__element a {
+    font-size: 14px;
+  }
+
+  .subtitle {
+    font-size: 23px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -236,16 +244,12 @@
     max-width: 270px;
   }
 
-  .menu__element a {
-    font-size: 16px;
-  }
-
   .cart__desc {
     flex-wrap: wrap;
   }
 
   .cart__title {
-    font-size: 25px;
+    font-size: 22px;
     text-wrap: wrap;
   }
 
@@ -309,6 +313,15 @@
   .order-header__btn {
     margin-top: 20px;
   }
+  .title {
+    font-size: 36px;
+  }
+  .service__desc {
+    font-size: 14px;
+  }
+  .service__title {
+    font-size: 22px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -369,12 +382,8 @@
     font-size: 24px;
   }
 
-  .service__desc {
-    font-size: 16px;
-  }
-
   .title {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   .subtitle {
@@ -459,7 +468,7 @@
   }
   .product-item__label {
     font-size: 18px;
-  } 
+  }
   .processe {
     font-size: 12px;
     flex-direction: column;
@@ -474,6 +483,40 @@
   .processe:not(:last-child)::after {
     width: 5px;
     right: -6px;
+  }
+  .label {
+    font-size: 14px;
+  }
+  .search input {
+    font-size: 14px;
+  }
+
+  .info-sale__text,
+  .info-sale__text a {
+    font-size: 14px;
+  }
+  .info-sale__title {
+    font-size: 30px;
+  }
+
+  .main-product__btn {
+    gap: 20px;
+  }
+  .button {
+    font-size: 15px;
+  }
+
+  .provide__title {
+    font-size: 22px;
+  }
+  .provide__desc {
+    font-size: 14px;
+  }
+  .cart__subtitle {
+    font-size: 14px;
+  }
+  .service {
+    padding: 33px;
   }
 }
 

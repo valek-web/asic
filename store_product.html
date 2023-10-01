@@ -322,7 +322,10 @@
         // Optional parameters
         direction: 'horizontal',
         loop: true,
-
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
         // If we need pagination
         pagination: {
             el: '.swiper-pagination',
@@ -334,9 +337,16 @@
             prevEl: '.swiper-button-prev',
         },
 
-        // And if we need scrollbar
-        scrollbar: {
-            el: '.swiper-scrollbar',
+        on: {
+            init() {
+                this.el.addEventListener('mouseenter', () => {
+                    this.autoplay.stop();
+                });
+
+                this.el.addEventListener('mouseleave', () => {
+                    this.autoplay.start();
+                });
+            }
         },
     });
 </script>
