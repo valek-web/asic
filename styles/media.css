@@ -146,6 +146,13 @@
   .main-product__wrapper {
     gap: 80px;
   }
+  .order-header__info {
+    gap: 30px;
+  }
+
+  .order-header__value {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -186,6 +193,38 @@
 
   .main-ip__wrapper {
     grid-template-columns: 1fr;
+  }
+
+  .order-header__title {
+    font-size: 18px;
+  }
+
+  .order-header__item {
+    width: 38%;
+  }
+  .order-header__info {
+    flex-wrap: wrap;
+  }
+
+  .processe {
+    font-size: 16px;
+  }
+  .processe__date {
+    font-size: 16px;
+  }
+
+  .product-item__label {
+    font-size: 16px;
+  }
+  .product-item__value {
+    font-size: 14px;
+  }
+  .order-body {
+    gap: 19px;
+  }
+
+  .product-price {
+    font-size: 20px;
   }
 }
 
@@ -240,9 +279,35 @@
   .main-product__wrapper {
     flex-direction: column;
     align-items: center;
-  } 
+  }
   .product-slider {
     max-width: 100%;
+  }
+  .order-body {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .processe {
+    font-size: 14px;
+  }
+
+  .processe__date {
+    font-size: 14px;
+  }
+
+  .order-header__value {
+    font-size: 14px;
+  }
+  .order-header__title {
+    font-size: 14px;
+  }
+  .order-header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .order-header__btn {
+    margin-top: 20px;
   }
 }
 
@@ -366,6 +431,49 @@
   }
   .swiper-button-prev {
     display: none !important;
+  }
+  .order-header__info {
+    flex-direction: column;
+    align-items: start;
+  }
+  .order-header__item {
+    width: 100%;
+  }
+  .order-header {
+    padding: 20px;
+    align-items: start;
+  }
+  .order-header__btn {
+    margin: 20px auto 0;
+  }
+
+  .order-body {
+    padding: 20px;
+  }
+
+  .product-title {
+    font-size: 18px;
+  }
+  .product-price {
+    font-size: 16px;
+  }
+  .product-item__label {
+    font-size: 18px;
+  } 
+  .processe {
+    font-size: 12px;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .processe__date {
+    font-size: 12px;
+  }
+  .processes {
+    gap: 5px;
+  }
+  .processe:not(:last-child)::after {
+    width: 5px;
+    right: -6px;
   }
 }
 
