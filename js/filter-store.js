@@ -18,7 +18,7 @@ for (let i = 0; i < filters1.length; i++) {
     filters1[i].classList.toggle('store-filter__item-active1')
   })
 }
-
+ 
 for (let i = 0; i < filters2.length; i++) {
   filters2[i].addEventListener('click', () => {
     let active = document.querySelector('.store-filter__item-active2')
